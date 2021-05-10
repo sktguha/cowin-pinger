@@ -33,6 +33,9 @@
     "ifttt"
   ],
   "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
     "lodash": "^4.17.21",
     "simple-node-logger": "^18.12.24"
   }
