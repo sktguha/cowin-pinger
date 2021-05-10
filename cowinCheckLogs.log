@@ -4042,3 +4042,2309 @@ Make sure to turn up the volume to hear the notifcation sound
     }
   ]
 } 
+"Monday, May 10th 2021, 10:13:26 pm" INFO  Ping Count - 6 
+"Monday, May 10th 2021, 10:13:26 pm" INFO  Ping Count - 6 
+"Monday, May 10th 2021, 10:13:26 pm" INFO  Ping Count - 6 
+"Monday, May 10th 2021, 10:13:26 pm" INFO  got result for saikat{
+  "centers": [
+    {
+      "center_id": 695686,
+      "name": "Balipara HS School",
+      "address": "Balipara",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Balipara BPHC",
+      "pincode": 784101,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f1846058-9f10-4728-9c79-699fccea34bd",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 563069,
+      "name": "Tezpur Medical College Hosp",
+      "address": "Tumuki",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784010,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "07adb803-72e3-4653-ac8a-da297c218029",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695685,
+      "name": "Rangapara HS School",
+      "address": "Rangapara",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Rangapara BPHC",
+      "pincode": 784505,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ac047aec-bf5c-4b50-8f5a-e9cf0538677d",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695684,
+      "name": "Trimurti Bhavan Dhekiajuli",
+      "address": "Dhekiajuli",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Dhekiajuli BPHC",
+      "pincode": 784110,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c84280e5-5659-4aef-9d3c-c2d881a4e064",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695690,
+      "name": "Rastra Bhasha School Tezpur",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "23dbde9e-e5c2-4b07-863b-c2dec4a80e24",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695659,
+      "name": "DON BOSCO HIGH SCHOOL TEZPUR",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "2d8073c0-2ef7-4d83-9e4a-f09b333e40bc",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61287,
+      "name": "Bihaguri BPHC",
+      "address": "Bihaguri",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784153,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "5b258f86-27f7-4b07-9cdd-4838849088ac",
+          "date": "11-05-2021",
+          "available_capacity": 29,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695638,
+      "name": "DARRANG COLLEGE TEZPUR",
+      "address": "Mahabhairab Paruwa Road",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "e773605f-de65-4dda-a15d-57d2193619ae",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61508,
+      "name": "Tezpur Medical College",
+      "address": "Tezpur Medical College",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784010,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "bbe8aa24-8034-4418-876e-d79da391092f",
+          "date": "11-05-2021",
+          "available_capacity": 30,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61400,
+      "name": "Bandarmari SD",
+      "address": "Bandarmari SD",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784153,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "1af3000c-7eec-400e-8986-8fbbc494d9b3",
+          "date": "11-05-2021",
+          "available_capacity": 8,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61330,
+      "name": "Borgaon NPHC",
+      "address": "Borgaon",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784149,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ddd4d7d1-b330-438f-8b87-b1968a2f079d",
+          "date": "11-05-2021",
+          "available_capacity": 10,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 698874,
+      "name": "Basseria State Dispensary",
+      "address": "Basseria",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784150,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "3dba8df1-8c4d-40e4-95bf-9d82e3899d4a",
+          "date": "11-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 696791,
+      "name": "TEZPUR GOVT GIRLS HS MP SCHOOL",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "190ae767-9c2c-412c-ae42-4c0e961303dc",
+          "date": "11-05-2021",
+          "available_capacity": 1,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    }
+  ]
+} 
+"Monday, May 10th 2021, 10:13:26 pm" INFO  
+Slot for 1 is available: TEZPUR GOVT GIRLS HS MP SCHOOL on 11-05-2021
+-1 more slots available... 
+"Monday, May 10th 2021, 10:13:26 pm" INFO  Slots found 
+"Monday, May 10th 2021, 10:13:26 pm" INFO  got result for saikat{
+  "centers": [
+    {
+      "center_id": 695686,
+      "name": "Balipara HS School",
+      "address": "Balipara",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Balipara BPHC",
+      "pincode": 784101,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f1846058-9f10-4728-9c79-699fccea34bd",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 563069,
+      "name": "Tezpur Medical College Hosp",
+      "address": "Tumuki",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784010,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "07adb803-72e3-4653-ac8a-da297c218029",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695685,
+      "name": "Rangapara HS School",
+      "address": "Rangapara",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Rangapara BPHC",
+      "pincode": 784505,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ac047aec-bf5c-4b50-8f5a-e9cf0538677d",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695684,
+      "name": "Trimurti Bhavan Dhekiajuli",
+      "address": "Dhekiajuli",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Dhekiajuli BPHC",
+      "pincode": 784110,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c84280e5-5659-4aef-9d3c-c2d881a4e064",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695690,
+      "name": "Rastra Bhasha School Tezpur",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "23dbde9e-e5c2-4b07-863b-c2dec4a80e24",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695659,
+      "name": "DON BOSCO HIGH SCHOOL TEZPUR",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "2d8073c0-2ef7-4d83-9e4a-f09b333e40bc",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61287,
+      "name": "Bihaguri BPHC",
+      "address": "Bihaguri",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784153,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "5b258f86-27f7-4b07-9cdd-4838849088ac",
+          "date": "11-05-2021",
+          "available_capacity": 29,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695638,
+      "name": "DARRANG COLLEGE TEZPUR",
+      "address": "Mahabhairab Paruwa Road",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "e773605f-de65-4dda-a15d-57d2193619ae",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61508,
+      "name": "Tezpur Medical College",
+      "address": "Tezpur Medical College",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784010,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "bbe8aa24-8034-4418-876e-d79da391092f",
+          "date": "11-05-2021",
+          "available_capacity": 30,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61400,
+      "name": "Bandarmari SD",
+      "address": "Bandarmari SD",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784153,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "1af3000c-7eec-400e-8986-8fbbc494d9b3",
+          "date": "11-05-2021",
+          "available_capacity": 8,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61330,
+      "name": "Borgaon NPHC",
+      "address": "Borgaon",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784149,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ddd4d7d1-b330-438f-8b87-b1968a2f079d",
+          "date": "11-05-2021",
+          "available_capacity": 10,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 698874,
+      "name": "Basseria State Dispensary",
+      "address": "Basseria",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784150,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "3dba8df1-8c4d-40e4-95bf-9d82e3899d4a",
+          "date": "11-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 696791,
+      "name": "TEZPUR GOVT GIRLS HS MP SCHOOL",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "190ae767-9c2c-412c-ae42-4c0e961303dc",
+          "date": "11-05-2021",
+          "available_capacity": 1,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    }
+  ]
+} 
+"Monday, May 10th 2021, 10:13:26 pm" INFO  
+Slot for 1 is available: TEZPUR GOVT GIRLS HS MP SCHOOL on 11-05-2021
+-1 more slots available... 
+"Monday, May 10th 2021, 10:13:26 pm" INFO  Slots found 
+"Monday, May 10th 2021, 10:13:26 pm" INFO  refuse to play sound as already sound is playing 
+"Monday, May 10th 2021, 10:13:26 pm" INFO  got result for saikat{
+  "centers": [
+    {
+      "center_id": 695686,
+      "name": "Balipara HS School",
+      "address": "Balipara",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Balipara BPHC",
+      "pincode": 784101,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f1846058-9f10-4728-9c79-699fccea34bd",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 563069,
+      "name": "Tezpur Medical College Hosp",
+      "address": "Tumuki",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784010,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "07adb803-72e3-4653-ac8a-da297c218029",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695685,
+      "name": "Rangapara HS School",
+      "address": "Rangapara",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Rangapara BPHC",
+      "pincode": 784505,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ac047aec-bf5c-4b50-8f5a-e9cf0538677d",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695684,
+      "name": "Trimurti Bhavan Dhekiajuli",
+      "address": "Dhekiajuli",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Dhekiajuli BPHC",
+      "pincode": 784110,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c84280e5-5659-4aef-9d3c-c2d881a4e064",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695690,
+      "name": "Rastra Bhasha School Tezpur",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "23dbde9e-e5c2-4b07-863b-c2dec4a80e24",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695659,
+      "name": "DON BOSCO HIGH SCHOOL TEZPUR",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "2d8073c0-2ef7-4d83-9e4a-f09b333e40bc",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61287,
+      "name": "Bihaguri BPHC",
+      "address": "Bihaguri",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784153,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "5b258f86-27f7-4b07-9cdd-4838849088ac",
+          "date": "11-05-2021",
+          "available_capacity": 29,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695638,
+      "name": "DARRANG COLLEGE TEZPUR",
+      "address": "Mahabhairab Paruwa Road",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "e773605f-de65-4dda-a15d-57d2193619ae",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61508,
+      "name": "Tezpur Medical College",
+      "address": "Tezpur Medical College",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784010,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "bbe8aa24-8034-4418-876e-d79da391092f",
+          "date": "11-05-2021",
+          "available_capacity": 30,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61400,
+      "name": "Bandarmari SD",
+      "address": "Bandarmari SD",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784153,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "1af3000c-7eec-400e-8986-8fbbc494d9b3",
+          "date": "11-05-2021",
+          "available_capacity": 8,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61330,
+      "name": "Borgaon NPHC",
+      "address": "Borgaon",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784149,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ddd4d7d1-b330-438f-8b87-b1968a2f079d",
+          "date": "11-05-2021",
+          "available_capacity": 10,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 698874,
+      "name": "Basseria State Dispensary",
+      "address": "Basseria",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784150,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "3dba8df1-8c4d-40e4-95bf-9d82e3899d4a",
+          "date": "11-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 696791,
+      "name": "TEZPUR GOVT GIRLS HS MP SCHOOL",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "190ae767-9c2c-412c-ae42-4c0e961303dc",
+          "date": "11-05-2021",
+          "available_capacity": 1,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    }
+  ]
+} 
+"Monday, May 10th 2021, 10:13:26 pm" INFO  
+Slot for 1 is available: TEZPUR GOVT GIRLS HS MP SCHOOL on 11-05-2021
+-1 more slots available... 
+"Monday, May 10th 2021, 10:13:26 pm" INFO  Slots found 
+"Monday, May 10th 2021, 10:13:26 pm" INFO  refuse to play sound as already sound is playing 
+"Monday, May 10th 2021, 10:19:26 pm" INFO  Ping Count - 7 
+"Monday, May 10th 2021, 10:19:26 pm" INFO  Ping Count - 7 
+"Monday, May 10th 2021, 10:19:26 pm" INFO  Ping Count - 7 
+"Monday, May 10th 2021, 10:19:26 pm" INFO  got result for saikat{
+  "centers": [
+    {
+      "center_id": 695686,
+      "name": "Balipara HS School",
+      "address": "Balipara",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Balipara BPHC",
+      "pincode": 784101,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f1846058-9f10-4728-9c79-699fccea34bd",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 563069,
+      "name": "Tezpur Medical College Hosp",
+      "address": "Tumuki",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784010,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "07adb803-72e3-4653-ac8a-da297c218029",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695685,
+      "name": "Rangapara HS School",
+      "address": "Rangapara",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Rangapara BPHC",
+      "pincode": 784505,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ac047aec-bf5c-4b50-8f5a-e9cf0538677d",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695684,
+      "name": "Trimurti Bhavan Dhekiajuli",
+      "address": "Dhekiajuli",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Dhekiajuli BPHC",
+      "pincode": 784110,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c84280e5-5659-4aef-9d3c-c2d881a4e064",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695690,
+      "name": "Rastra Bhasha School Tezpur",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "23dbde9e-e5c2-4b07-863b-c2dec4a80e24",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695659,
+      "name": "DON BOSCO HIGH SCHOOL TEZPUR",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "2d8073c0-2ef7-4d83-9e4a-f09b333e40bc",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61287,
+      "name": "Bihaguri BPHC",
+      "address": "Bihaguri",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784153,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "5b258f86-27f7-4b07-9cdd-4838849088ac",
+          "date": "11-05-2021",
+          "available_capacity": 29,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695638,
+      "name": "DARRANG COLLEGE TEZPUR",
+      "address": "Mahabhairab Paruwa Road",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "e773605f-de65-4dda-a15d-57d2193619ae",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61508,
+      "name": "Tezpur Medical College",
+      "address": "Tezpur Medical College",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784010,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "bbe8aa24-8034-4418-876e-d79da391092f",
+          "date": "11-05-2021",
+          "available_capacity": 30,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61400,
+      "name": "Bandarmari SD",
+      "address": "Bandarmari SD",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784153,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "1af3000c-7eec-400e-8986-8fbbc494d9b3",
+          "date": "11-05-2021",
+          "available_capacity": 8,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61330,
+      "name": "Borgaon NPHC",
+      "address": "Borgaon",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784149,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ddd4d7d1-b330-438f-8b87-b1968a2f079d",
+          "date": "11-05-2021",
+          "available_capacity": 10,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 698874,
+      "name": "Basseria State Dispensary",
+      "address": "Basseria",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784150,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "3dba8df1-8c4d-40e4-95bf-9d82e3899d4a",
+          "date": "11-05-2021",
+          "available_capacity": 23,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 696791,
+      "name": "TEZPUR GOVT GIRLS HS MP SCHOOL",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "190ae767-9c2c-412c-ae42-4c0e961303dc",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    }
+  ]
+} 
+"Monday, May 10th 2021, 10:19:26 pm" INFO  got result for saikat{
+  "centers": [
+    {
+      "center_id": 695686,
+      "name": "Balipara HS School",
+      "address": "Balipara",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Balipara BPHC",
+      "pincode": 784101,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f1846058-9f10-4728-9c79-699fccea34bd",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 563069,
+      "name": "Tezpur Medical College Hosp",
+      "address": "Tumuki",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784010,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "07adb803-72e3-4653-ac8a-da297c218029",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695685,
+      "name": "Rangapara HS School",
+      "address": "Rangapara",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Rangapara BPHC",
+      "pincode": 784505,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ac047aec-bf5c-4b50-8f5a-e9cf0538677d",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695684,
+      "name": "Trimurti Bhavan Dhekiajuli",
+      "address": "Dhekiajuli",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Dhekiajuli BPHC",
+      "pincode": 784110,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c84280e5-5659-4aef-9d3c-c2d881a4e064",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695690,
+      "name": "Rastra Bhasha School Tezpur",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "23dbde9e-e5c2-4b07-863b-c2dec4a80e24",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695659,
+      "name": "DON BOSCO HIGH SCHOOL TEZPUR",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "2d8073c0-2ef7-4d83-9e4a-f09b333e40bc",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61287,
+      "name": "Bihaguri BPHC",
+      "address": "Bihaguri",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784153,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "5b258f86-27f7-4b07-9cdd-4838849088ac",
+          "date": "11-05-2021",
+          "available_capacity": 29,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695638,
+      "name": "DARRANG COLLEGE TEZPUR",
+      "address": "Mahabhairab Paruwa Road",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "e773605f-de65-4dda-a15d-57d2193619ae",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61508,
+      "name": "Tezpur Medical College",
+      "address": "Tezpur Medical College",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784010,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "bbe8aa24-8034-4418-876e-d79da391092f",
+          "date": "11-05-2021",
+          "available_capacity": 30,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61400,
+      "name": "Bandarmari SD",
+      "address": "Bandarmari SD",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784153,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "1af3000c-7eec-400e-8986-8fbbc494d9b3",
+          "date": "11-05-2021",
+          "available_capacity": 8,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61330,
+      "name": "Borgaon NPHC",
+      "address": "Borgaon",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784149,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ddd4d7d1-b330-438f-8b87-b1968a2f079d",
+          "date": "11-05-2021",
+          "available_capacity": 10,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 698874,
+      "name": "Basseria State Dispensary",
+      "address": "Basseria",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784150,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "3dba8df1-8c4d-40e4-95bf-9d82e3899d4a",
+          "date": "11-05-2021",
+          "available_capacity": 23,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 696791,
+      "name": "TEZPUR GOVT GIRLS HS MP SCHOOL",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "190ae767-9c2c-412c-ae42-4c0e961303dc",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    }
+  ]
+} 
+"Monday, May 10th 2021, 10:19:26 pm" INFO  got result for saikat{
+  "centers": [
+    {
+      "center_id": 695686,
+      "name": "Balipara HS School",
+      "address": "Balipara",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Balipara BPHC",
+      "pincode": 784101,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f1846058-9f10-4728-9c79-699fccea34bd",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 563069,
+      "name": "Tezpur Medical College Hosp",
+      "address": "Tumuki",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784010,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "07adb803-72e3-4653-ac8a-da297c218029",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695685,
+      "name": "Rangapara HS School",
+      "address": "Rangapara",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Rangapara BPHC",
+      "pincode": 784505,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ac047aec-bf5c-4b50-8f5a-e9cf0538677d",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695684,
+      "name": "Trimurti Bhavan Dhekiajuli",
+      "address": "Dhekiajuli",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Dhekiajuli BPHC",
+      "pincode": 784110,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c84280e5-5659-4aef-9d3c-c2d881a4e064",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695690,
+      "name": "Rastra Bhasha School Tezpur",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "23dbde9e-e5c2-4b07-863b-c2dec4a80e24",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695659,
+      "name": "DON BOSCO HIGH SCHOOL TEZPUR",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "2d8073c0-2ef7-4d83-9e4a-f09b333e40bc",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61287,
+      "name": "Bihaguri BPHC",
+      "address": "Bihaguri",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784153,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "5b258f86-27f7-4b07-9cdd-4838849088ac",
+          "date": "11-05-2021",
+          "available_capacity": 29,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695638,
+      "name": "DARRANG COLLEGE TEZPUR",
+      "address": "Mahabhairab Paruwa Road",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "e773605f-de65-4dda-a15d-57d2193619ae",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61508,
+      "name": "Tezpur Medical College",
+      "address": "Tezpur Medical College",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784010,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "bbe8aa24-8034-4418-876e-d79da391092f",
+          "date": "11-05-2021",
+          "available_capacity": 30,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61400,
+      "name": "Bandarmari SD",
+      "address": "Bandarmari SD",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784153,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "1af3000c-7eec-400e-8986-8fbbc494d9b3",
+          "date": "11-05-2021",
+          "available_capacity": 8,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 61330,
+      "name": "Borgaon NPHC",
+      "address": "Borgaon",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784149,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ddd4d7d1-b330-438f-8b87-b1968a2f079d",
+          "date": "11-05-2021",
+          "available_capacity": 10,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 698874,
+      "name": "Basseria State Dispensary",
+      "address": "Basseria",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Bihaguri BPHC",
+      "pincode": 784150,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "3dba8df1-8c4d-40e4-95bf-9d82e3899d4a",
+          "date": "11-05-2021",
+          "available_capacity": 23,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 696791,
+      "name": "TEZPUR GOVT GIRLS HS MP SCHOOL",
+      "address": "Tezpur",
+      "state_name": "Assam",
+      "district_name": "Sonitpur",
+      "block_name": "Sonitpur Urban",
+      "pincode": 784001,
+      "lat": 26,
+      "long": 92,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "190ae767-9c2c-412c-ae42-4c0e961303dc",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    }
+  ]
+} 
