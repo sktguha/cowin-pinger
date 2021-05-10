@@ -6,21 +6,47 @@ const startOfTomorrow = require('date-fns/startOfTomorrow')
 const sound = require("sound-play");
 const path = require("path");
 const notificationSound = path.join(__dirname, "sounds/beep.mp3");
+const SimpleNodeLogger = require('simple-node-logger'),
+	opts = {
+		logFilePath:'cowinCheckLogs.log',
+		timestampFormat:'"dddd, MMMM Do YYYY, h:mm:ss a"'
+	},
+fileLogger = SimpleNodeLogger.createSimpleLogger( opts );
+const _ = require('lodash');
 
 const defaultInterval = 6; // interval between pings in minutes
 const appointmentsListLimit = 2 // Increase/Decrease it based on the amount of information you want in the notification.
-let timer = null;
 const sampleUserAgent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36'
+let timer = null;
+let soundLock = false;
+
 
 
 // main script starts here #imp
-// await sound.play(notificationSound);
+// sound.play(notificationSound);
+playSound();
+playSound();
+playSound();
 playSound();
 // mainCheckAndSchedule(28, 64);
 // mainCheckAndSchedule(31, 294);
 // mainCheckAndSchedule(31, 265);
 
-function playSound(){
+function log(...args){
+   try{
+        console.log(...args);
+        fileLogger.info(...args);
+    } catch(e){
+        console.error('error when logging file also', e.toString())
+    }
+}
+
+async function playSound(){
+    if(soundLock){
+        log('refuse to play sound as already sound is playing');
+        return;
+    }
+    soundLock = true;
     while (true) {
         try {
             await sound.play(notificationSound);
@@ -66,23 +92,23 @@ function mainCheckAndSchedule(age=28, district = 64) {
                 date: format(startOfTomorrow(), 'dd-MM-yyyy')
             }
 
-            console.log('\nCowin Pinger started succesfully\n');
-            console.log(`Age= ${params.age}`);
-            console.log(`District ID= ${params.districtId}`);
-            console.log(`Time interval= ${params.interval} minutes (default is 15)`);
-            console.log(`Appointment Count= ${params.appointmentsListLimit} (default is 2)`);
+            log('\nCowin Pinger started succesfully\n');
+            log(`Age= ${params.age}`);
+            log(`District ID= ${params.districtId}`);
+            log(`Time interval= ${params.interval} minutes (default is 15)`);
+            log(`Appointment Count= ${params.appointmentsListLimit} (default is 2)`);
             if (params.hook && params.key) {
-                console.log(`IFTTT API Key= ${params.key || "not configured"}`);
-                console.log(`IFTTT Hook Name= ${params.hook || "not configured"}`);
+                log(`IFTTT API Key= ${params.key || "not configured"}`);
+                log(`IFTTT Hook Name= ${params.hook || "not configured"}`);
             } else {
-                console.log('\nMake sure to turn up the volume to hear the notifcation sound')
+                log('\nMake sure to turn up the volume to hear the notifcation sound')
             }
-            console.log('\n\n')
+            log('\n\n')
             scheduleCowinPinger(params, age, district);
         }
     }
     // } else {
-    //     console.log('\nInvalid command\n\nRun `cowin-pinger run` with all required params to start pinging cowin portal\nRefer documentation for instructions on how to run package\n');
+    //     log('\nInvalid command\n\nRun `cowin-pinger run` with all required params to start pinging cowin portal\nRefer documentation for instructions on how to run package\n');
     // }
 }
 
@@ -93,16 +119,17 @@ function scheduleCowinPinger(params,age, district) {
         console.clear();
         pingCount += 1;
         pingCowin(params,district);
-        console.log("Ping Count - ", pingCount);
+        log("Ping Count - ", pingCount);
     }, params.interval * 60000);
 }
 
 function pingCowin({ key, hook, age, districtId, appointmentsListLimit, date }, district) {
+    // TODO: add rate limiting here for safety ??
     axios.get(
         `https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=${districtId}&date=${date}`, 
         { headers: { 'User-Agent': sampleUserAgent } 
     }).then((result) => {
-        console.log("got result for " + (age < 30 ? "saikat": "saugat"), JSON.stringify(result.data, null, 2));
+        log("got result for " + (age < 30 ? "saikat": "saugat"), JSON.stringify(result.data, null, 2));
         const { centers } = result.data;
         let isSlotAvailable = false;
         let dataOfSlot = "";
@@ -127,18 +154,18 @@ function pingCowin({ key, hook, age, districtId, appointmentsListLimit, date }, 
         if (isSlotAvailable) {
             if (hook && key) {
                 axios.post(`https://maker.ifttt.com/trigger/${hook}/with/key/${key}`, { value1: dataOfSlot }).then(() => {
-                    console.log('Sent Notification to Phone ')
+                    log('Sent Notification to Phone ')
                     playSound();
                     // clearInterval(timer);
                 });
             } else {
-                console.log(dataOfSlot);
-                console.log('Slots found')
+                log(dataOfSlot);
+                log('Slots found')
                 playSound();
                 // clearInterval(timer);
             }
         }
     }).catch((err) => {
-        console.log("Error: " + err.message);
+        log("Error: " + err.message);
     });
 }
