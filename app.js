@@ -7,17 +7,35 @@ const sound = require("sound-play");
 const path = require("path");
 const notificationSound = path.join(__dirname, "sounds/beep.mp3");
 
-const defaultInterval = 15; // interval between pings in minutes
+const defaultInterval = 6; // interval between pings in minutes
 const appointmentsListLimit = 2 // Increase/Decrease it based on the amount of information you want in the notification.
 let timer = null;
 const sampleUserAgent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36'
 
-checkParams();
 
-function checkParams() {
+// main script starts here #imp
+// await sound.play(notificationSound);
+playSound();
+// mainCheckAndSchedule(28, 64);
+// mainCheckAndSchedule(31, 294);
+// mainCheckAndSchedule(31, 265);
+
+function playSound(){
+    while (true) {
+        try {
+            await sound.play(notificationSound);
+        } catch(err){
+            console.error("error when playing sound, retrying :", err.toString());
+        }
+    }
+}
+
+function mainCheckAndSchedule(age=28, district = 64) {
+    argv.age = argv.age || age;
+    argv.district = argv.district || district; //sonitpur district
     if (argv.help) {
         console.error('Refer documentation for more details');
-    } else if (argv._ && argv._.length && argv._.includes('run')) {
+    } else  {
         if (argv.key && typeof argv.key !== 'string') {
             console.error('Please provide a valid IFTTT Webook API Key by appending --key=<IFTTT-KEY> to recieve mobile notification \nRefer documentation for more details');
             return;
@@ -60,25 +78,31 @@ function checkParams() {
                 console.log('\nMake sure to turn up the volume to hear the notifcation sound')
             }
             console.log('\n\n')
-            scheduleCowinPinger(params);
+            scheduleCowinPinger(params, age, district);
         }
-    } else {
-        console.log('\nInvalid command\n\nRun `cowin-pinger run` with all required params to start pinging cowin portal\nRefer documentation for instructions on how to run package\n');
     }
+    // } else {
+    //     console.log('\nInvalid command\n\nRun `cowin-pinger run` with all required params to start pinging cowin portal\nRefer documentation for instructions on how to run package\n');
+    // }
 }
 
-function scheduleCowinPinger(params) {
+function scheduleCowinPinger(params,age, district) {
     let pingCount = 0;
+    pingCowin(params, district);
     timer = setInterval(() => {
         console.clear();
         pingCount += 1;
-        pingCowin(params);
+        pingCowin(params,district);
         console.log("Ping Count - ", pingCount);
     }, params.interval * 60000);
 }
 
-function pingCowin({ key, hook, age, districtId, appointmentsListLimit, date }) {
-    axios.get(`https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=${districtId}&date=${date}`, { headers: { 'User-Agent': sampleUserAgent } }).then((result) => {
+function pingCowin({ key, hook, age, districtId, appointmentsListLimit, date }, district) {
+    axios.get(
+        `https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=${districtId}&date=${date}`, 
+        { headers: { 'User-Agent': sampleUserAgent } 
+    }).then((result) => {
+        console.log("got result for " + (age < 30 ? "saikat": "saugat"), JSON.stringify(result.data, null, 2));
         const { centers } = result.data;
         let isSlotAvailable = false;
         let dataOfSlot = "";
@@ -103,15 +127,15 @@ function pingCowin({ key, hook, age, districtId, appointmentsListLimit, date }) 
         if (isSlotAvailable) {
             if (hook && key) {
                 axios.post(`https://maker.ifttt.com/trigger/${hook}/with/key/${key}`, { value1: dataOfSlot }).then(() => {
-                    console.log('Sent Notification to Phone \nStopping Pinger...')
-                    sound.play(notificationSound);
-                    clearInterval(timer);
+                    console.log('Sent Notification to Phone ')
+                    playSound();
+                    // clearInterval(timer);
                 });
             } else {
                 console.log(dataOfSlot);
-                console.log('Slots found\nStopping Pinger...')
-                sound.play(notificationSound);
-                clearInterval(timer);
+                console.log('Slots found')
+                playSound();
+                // clearInterval(timer);
             }
         }
     }).catch((err) => {
