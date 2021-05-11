@@ -107,6 +107,7 @@ function mainCheckAndSchedule(age = 28, district = 64, otherArgs = {}) {
 function pingCowin({
   key, hook, age, districtId, appointmentsListLimit, date,
 }) {
+  date = '10-05-2021';
   // TODO: add rate limiting here for safety ??
   axios.get(
     `https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=${districtId}&date=${date}`,
@@ -142,8 +143,8 @@ function pingCowin({
           // clearInterval(timer);
         });
       } else {
+        log('#imp #foc Slots found');
         log(dataOfSlot);
-        log('#imp Slots found');
         playSound();
         // clearInterval(timer);
       }
