@@ -3,7 +3,8 @@
 const axios = require('axios');
 const argv = require('minimist')(process.argv.slice(2));
 const { format } = require('date-fns');
-const startOfTomorrow = require('date-fns/startOfTomorrow');
+// const startOfTomorrow = require('date-fns/startOfTomorrow');
+const startOfTomorrow = require('date-fns/startOfToday');
 const sound = require('sound-play');
 const path = require('path');
 
@@ -26,7 +27,7 @@ let soundLock = false;
 // main script starts here #imp
 // sound.play(notificationSound);
 // eslint-disable-next-line no-use-before-define
-mainCheckAndSchedule(28, 64);
+mainCheckAndSchedule(28, 784001);
 // mainCheckAndSchedule(31, 294);
 // mainCheckAndSchedule(31, 265);
 
@@ -107,10 +108,12 @@ function mainCheckAndSchedule(age = 28, district = 64, otherArgs = {}) {
 function pingCowin({
   key, hook, age, districtId, appointmentsListLimit, date,
 }) {
-  date = '10-05-2021';
+  const URL = `https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByPin?pincode=${districtId}&date=${date}`;
+  log(`pinging URL: ${URL}`);
+  //   date = '10-05-2021';
   // TODO: add rate limiting here for safety ??
   axios.get(
-    `https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=${districtId}&date=${date}`,
+    URL,
     { headers: { 'User-Agent': sampleUserAgent } },
   ).then((result) => {
     log(`got result for ${age < 30 ? 'saikat' : 'saugat'}`, JSON.stringify(result.data, null, 2));
