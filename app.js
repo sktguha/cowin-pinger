@@ -121,6 +121,12 @@ function pingCowin({
     if (centers.length) {
       centers.forEach((center) => {
         center.sessions.forEach(((session) => {
+        //   // TEMPORARY
+        //   if (session?.name?.includes?.('Rangapara')) {
+        //     log('ignored as rangapara', session.name);
+        //     return;
+        //   }
+
           if (session.min_age_limit < +age && session.available_capacity > 0) {
             isSlotAvailable = true;
             appointmentsAvailableCount++;
