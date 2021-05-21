@@ -161,7 +161,7 @@ function pingCowin({
         log('#imp #foc Slots found');
         log(dataOfSlot);
         playSound();
-        openUrl.open('https://selfregistration.cowin.gov.in/appointment');
+        openUrl.open('https://selfregistration.cowin.gov.in/dashboard');
         // clearInterval(timer);
       }
     }
