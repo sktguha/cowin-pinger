@@ -8,6 +8,8 @@ const startOfTomorrow = require('date-fns/startOfTomorrow');
 const sound = require('sound-play');
 const path = require('path');
 
+const openUrl = require('openurl');
+
 const notificationSound = path.join(__dirname, 'sounds/beep.mp3');
 const SimpleNodeLogger = require('simple-node-logger');
 
@@ -147,6 +149,7 @@ function pingCowin({
       //   dataOfSlot = `${dataOfSlot}\n${appointmentsAvailableCount - appointmentsListLimit} more slots available...`;
       // }
     }
+    // openUrl.open('https://selfregistration.cowin.gov.in/appointment');
     if (isSlotAvailable) {
       if (hook && key) {
         axios.post(`https://maker.ifttt.com/trigger/${hook}/with/key/${key}`, { value1: dataOfSlot }).then(() => {
@@ -158,6 +161,7 @@ function pingCowin({
         log('#imp #foc Slots found');
         log(dataOfSlot);
         playSound();
+        openUrl.open('https://selfregistration.cowin.gov.in/appointment');
         // clearInterval(timer);
       }
     }

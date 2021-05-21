@@ -13,6 +13,7 @@
     "axios": "^0.21.1",
     "date-fns": "^2.21.1",
     "minimist": "^1.2.5",
+    "openurl": "^1.1.1",
     "sound-play": "^1.1.0"
   },
   "repository": {
