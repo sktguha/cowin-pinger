@@ -20,7 +20,7 @@ const opts = {
 const fileLogger = SimpleNodeLogger.createSimpleLogger(opts);
 const _ = require('lodash');
 
-const defaultInterval = 0.5; // interval between pings in minutes
+const defaultInterval = 0.4; // interval between pings in minutes
 const defaultAppointmentsListLimit = 2; // Increase/Decrease it based on the amount of information you want in the notification.
 const sampleUserAgent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36';
 let timer = null;
