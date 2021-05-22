@@ -20,7 +20,7 @@ const opts = {
 const fileLogger = SimpleNodeLogger.createSimpleLogger(opts);
 const _ = require('lodash');
 
-const defaultInterval = 2; // interval between pings in minutes
+const defaultInterval = 0.5; // interval between pings in minutes
 const defaultAppointmentsListLimit = 2; // Increase/Decrease it based on the amount of information you want in the notification.
 const sampleUserAgent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36';
 let timer = null;
@@ -173,10 +173,12 @@ function pingCowin({
 function scheduleCowinPinger(params, age, district) {
   let pingCount = 0;
   pingCowin(params, district);
+  const pingInterval = params.interval * 60000;
+  log('start pinging with ping interval in milliseconds as: ', pingInterval);
   timer = setInterval(() => {
     console.clear();
     pingCount += 1;
     pingCowin(params, district);
     log('Ping Count - ', pingCount);
-  }, params.interval * 60000);
+  }, pingInterval);
 }
