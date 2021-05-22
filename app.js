@@ -44,10 +44,15 @@ function log(...args) {
 
 async function playSound() {
   if (soundLock) {
-    log('refuse to play sound as already sound is playing');
+    log('refuse to play sound and open url as already sound is playing');
     return;
   }
   soundLock = true;
+  try {
+    openUrl.open('https://selfregistration.cowin.gov.in/dashboard');
+  } catch (e) {
+    log('error : ', e.toString());
+  }
   while (true) {
     try {
       // eslint-disable-next-line no-await-in-loop
@@ -161,7 +166,6 @@ function pingCowin({
         log('#imp #foc Slots found');
         log(dataOfSlot);
         playSound();
-        openUrl.open('https://selfregistration.cowin.gov.in/dashboard');
         // clearInterval(timer);
       }
     }
